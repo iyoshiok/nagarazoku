@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=roboto:300,400);
+
+body {
+  color: #a9a9a9;
+  font: normal 14px 'roboto', sans-serif;
+  background: #000;
+}
+
+ul.countdown {
+  list-style: none;
+  margin: 75px 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+ul.countdown2 {
+  list-style: none;
+  margin: 75px 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+
+ul.countdown li { display: inline-block; }
+
+ul.countdown2 li { display: inline-block; }
+
+
+ul.countdown li span {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+  padding: 0 20px;
+/*
+  border-top: 1px solid #C0392B;
+  border-bottom: 1px solid #C0392B;
+*/
+  margin-left: -4px;
+}
+
+ul.countdown2 li span {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+  padding: 0 20px;
+/*
+  border-top: 1px solid #C0392B;
+  border-bottom: 1px solid #C0392B;
+*/
+  margin-left: -4px;
+}
+
+
+ul.countdown li p {
+  color: #a7abb1;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+ul.countdown2 li p {
+  color: #a7abb1;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+.days {
+  background-color: #008080;
+  padding: 0 10px;
+  color: #fff;
+}
+
+
+ul.countdown2 .days {
+  background-color: #af0000;
+  padding: 0 10px;
+  color: #fff;
+}
+
+/*.last { border-right: 1px solid #C0392B; }*/
